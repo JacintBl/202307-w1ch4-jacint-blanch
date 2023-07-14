@@ -102,3 +102,19 @@ main {
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 500px) {
+  .main-article__images ul {
+    flex-direction: column;
+  }
+  .section-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-info__button {
+    margin-top: 2rem;
+  }
+  .section-info__titles {
+    text-align: center;
+  }
+}
