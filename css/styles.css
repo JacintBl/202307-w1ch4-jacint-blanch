@@ -19,6 +19,17 @@ main {
   padding: 2.5rem;
 }
 
+.section-info__title__firsttitle {
+  font-weight: 600;
+  color: rgb(220, 108, 10);
+  font-size: 1rem;
+}
+
+.section-info__title__secondtitle {
+  font-weight: 1000;
+  font-size: 3rem;
+}
+
 .section-info {
   display: flex;
   justify-content: space-between;
@@ -34,10 +45,15 @@ main {
 
 .section-info__button {
   flex-direction: row;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(220, 108, 10);
+  color: white;
+  padding: 0.8rem;
+  cursor: pointer;
 }
 
 .main-article__images {
-  /* flex-grow: 1; */
   display: flex;
   justify-content: center;
 }
