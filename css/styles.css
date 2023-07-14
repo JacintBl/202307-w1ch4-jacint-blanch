@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;800&display=swap");
+
+html {
+  font-family: nunito;
+}
+
 ::after,
 ::before {
   box-sizing: border-box;
@@ -6,7 +12,6 @@
 body {
   margin: 0;
   font-size: 1rem;
-  min-width: 500px;
   min-height: 100vh;
 }
 
