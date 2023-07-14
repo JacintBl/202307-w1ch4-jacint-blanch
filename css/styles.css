@@ -18,6 +18,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .section-info__titles {
@@ -31,6 +32,7 @@ main {
 }
 
 .main-article__images {
+  /* flex-grow: 1; */
   display: flex;
   justify-content: center;
 }
@@ -50,8 +52,8 @@ main {
 
 .main-article__images__hover li {
   display: block;
-  width: 200px;
-  height: 200px;
+  width: 85%;
+  height: auto;
   border-radius: 20%;
   overflow: hidden;
 }
